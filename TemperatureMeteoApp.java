@@ -52,7 +52,7 @@ class OpenMeteoProvider {
 	}
 
 	static double randTemp() {
-		double randomTemperature = random.nextFloat() * ((50.0 - (-50.0)));
+		double randomTemperature = random.nextDouble() * ((50.0 - (-50.0)) +(-50));
 		return randomTemperature;
 	}
 }
